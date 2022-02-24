@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RelayRace : MonoBehaviour
 {
-    public Transform[] listOfRunners;
+    [SerializeField] private Transform[] listOfRunners;
     private Transform target;
     private Transform currentRunner;
     private int currentTargetIndex;

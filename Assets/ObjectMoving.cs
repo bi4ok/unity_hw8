@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjectMoving : MonoBehaviour
 {
-    public Transform[] objectPoints;
+    [SerializeField] private Transform[] objectPoints;
     private Vector3 target;
 
     private int currentTargetIndex;
